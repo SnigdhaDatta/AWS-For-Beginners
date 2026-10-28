@@ -2,7 +2,9 @@
 
 ## Day 1 PPT
 
-<iframe src="https://gamma.app/embed/4x12h6aqhqkch2y" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="AWS for Absolute Beginners"></iframe>
+[![AWS for Absolute Beginners](https://img.shields.io/badge/View%20Day%201%20PPT-Gamma-6C5CE7?style=for-the-badge)](https://gamma.app/embed/4x12h6aqhqkch2y)
+
+> GitHub README files do not render embedded `iframe` elements. Use the button above to open the presentation in Gamma.
 
 ---
 
@@ -10,11 +12,11 @@
 
 1. **Open the sign-up page.** Go to [AWS Free Tier](https://aws.amazon.com/free) and click **Create an AWS Account**. Log out of any Amazon shopping account first.
 
-2. **Enter your email and account name.** Use an email you check often, because it becomes your root user login. Pick a simple account name, such as `yourname-lab`. Enter the verification code AWS emails you.
+2. **Enter your email and account name.** Use an email you check often, because it becomes your root user login. Pick a simple account name, such as `yourname-lab`. Enter the verification code AWS may send to your email.
 
 3. **Create a root password.** Choose a strong password you have not used anywhere else, and save it somewhere safe.
 
-4. **Choose the Free plan.** Select the available free account option rather than upgrading to a paid plan. Check the current Free Tier terms, credits, and usage limits carefully, as eligibility and billing terms can vary.
+4. **Choose the Free plan.** Select the available free account option rather than upgrading to a paid plan. Check the current Free Tier terms, credits, and usage limits carefully, as eligibility and billing terms may change.
 
 5. **Add contact details.** Choose **Personal** as the account type, then fill in your name, phone number, and address. Use accurate details so verification does not fail.
 
