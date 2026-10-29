@@ -37,16 +37,7 @@
 
 ## Root Account vs IAM User
 
-```mermaid
-flowchart LR
-    root["Root account<br/>Master key<br/>Use only for account setup and recovery"]
-    iam["IAM user<br/>Personal key<br/>Use for daily AWS work"]
-    root -->|"Create and manage"| iam
-
-    style root fill:#ffffff,color:#000000,stroke:#000000
-    style iam fill:#ffffff,color:#000000,stroke:#000000
-    linkStyle 0 stroke:#000000,color:#000000
-```
+![Root Account vs IAM User](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3AxQ3CLcHMK-iAZVYJRGxSy.png)
 
 > [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=WYg3JpZ78J4vitGwmcF_O&layout=canvas)
 
