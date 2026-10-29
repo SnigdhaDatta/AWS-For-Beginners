@@ -1,6 +1,12 @@
-# AWS for Beginners
+<p align="center">
+  <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://a0.awsstatic.com/libra-static/images/logos/aws_logo_smile_1200x630.png" alt="Amazon Web Services" width="220">
+  </a>
+</p>
 
-A 10-day beginner-friendly AWS course with one-hour lessons.
+<h1 align="center">AWS for Beginners</h1>
+
+<p align="center">A 10-day beginner-friendly AWS course with one-hour lessons.</p>
 
 ## Who this course is for
 
