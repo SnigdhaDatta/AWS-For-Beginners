@@ -61,3 +61,8 @@ Lambda, CloudWatch, and CloudFront are introduced by name only on Day 4.
 
 - Turn on MFA for the root user.
 - Do not use the root account for daily work.
+
+## Contributing
+
+- [Contribution and commit rules](./CONTRIBUTING.md)
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
