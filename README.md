@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer">
-    <img src="https://a0.awsstatic.com/libra-static/images/logos/aws_logo_smile_1200x630.png" alt="Amazon Web Services" width="220">
+    <img src="./assets/aws-logo.svg" alt="Amazon Web Services" width="220">
   </a>
 </p>
 
