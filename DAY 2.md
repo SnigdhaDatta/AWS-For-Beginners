@@ -101,4 +101,4 @@ Like electricity, a computer you forget to turn off keeps costing money.
 
 ---
 
-[← Day 1: Cloud and AWS Basics](./day-01-cloud-and-aws-basics.md) | [Day 3: S3 Storage →](./day-03-s3-storage.md)
+[← Day 1: Cloud and AWS Basics](./DAY%201.md) | [Day 3: S3 Storage →](./DAY%203.md)

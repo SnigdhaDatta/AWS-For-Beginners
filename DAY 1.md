@@ -60,3 +60,7 @@
   5. If you cannot delete the payment method or cancel the mandate, check AWS billing support and your UPI app's help instructions.
 - **Never share your root password, MFA codes, or access keys** with anyone, and never put them in your repository.
 - **Turn off or delete resources you do not use.** Day 10 is cleanup day. Verify that no billable resources remain before finishing the course.
+
+---
+
+[Day 2: IAM and EC2 Basics →](./DAY%202.md)
