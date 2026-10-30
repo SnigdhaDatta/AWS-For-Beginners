@@ -2,7 +2,9 @@
 
 ## Day 3 PPT
 
-> Coming soon. The presentation for this lesson will be added here.
+[![AWS Day 3: Storing Files with S3](https://img.shields.io/badge/View%20Day%203%20PPT-Gamma-6C5CE7?style=for-the-badge)](https://gamma.app/docs/AWS-Day-3-Storing-Files-with-S3-o6spie32wa3np0o)
+
+> GitHub README files do not render embedded `iframe` elements. Use the button above to open the presentation in Gamma.
 
 ---
 
