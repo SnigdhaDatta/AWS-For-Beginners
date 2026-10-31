@@ -219,4 +219,4 @@ Person -> Browser -> EC2 (gallery website with Upload button) -> S3 (images)
 
 ---
 
-[← Day 3: S3 Storage](./day-03-s3-storage.md) | [Day 5: Create a Bucket and Upload Images →](./day-05-create-bucket-and-upload-images.md)
+[← Day 3: S3 Storage](./DAY%203.md) | Day 5: Create a Bucket and Upload Images (Coming soon)

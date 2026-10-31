@@ -38,7 +38,7 @@ See [Day 1](./DAY%201.md) for the AWS account setup steps.
 | Day 1 | Cloud and AWS Basics | [Open lesson](./DAY%201.md) |
 | Day 2 | IAM and EC2 Basics | [Open lesson](./DAY%202.md) |
 | Day 3 | S3 Storage | [Open lesson](./DAY%203.md) |
-| Day 4 | Other Services, Billing, and Review | Coming soon |
+| Day 4 | Other Services, Billing, and Review | [Open lesson](./DAY%204.md) |
 | Day 5 | Project, create an S3 bucket and upload images | Coming soon |
 | Day 6 | Project, launch an EC2 instance | Coming soon |
 | Day 7 | Project, IAM role and run the gallery app on EC2 | Coming soon |
