@@ -39,7 +39,7 @@
 
 ![Root Account vs IAM User](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3AxQ3CLcHMK-iAZVYJRGxSy.png)
 
-> [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=WYg3JpZ78J4vitGwmcF_O&layout=canvas)
+> [View this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=WYg3JpZ78J4vitGwmcF_O&layout=canvas)
 
 ### Renting a computer costs money while it runs
 

@@ -42,7 +42,7 @@
 
 ![S3 in Detail](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3A_RaFmjLE9FblanxYWMG0D.png)
 
-> [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=AX33Svgmmb1E1F1jSnEM6&layout=canvas)
+> [View this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=AX33Svgmmb1E1F1jSnEM6&layout=canvas)
 
 ### Bucket + Key = your file
 
@@ -64,7 +64,7 @@ my-gallery-images / photos/cat.jpg
 
 ![S3 buckets, objects, settings, and access](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3AWMh5LWYRAWF0Fl8j0MdpS.png)
 
-> [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=SedElyJ44x-LxTWbfnca&layout=canvas)
+> [View this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=SedElyJ44x-LxTWbfnca&layout=canvas)
 
 This second diagram zooms in on one private bucket: its objects are found by **Bucket + Key**, it has settings (Block Public Access, SSE-S3 encryption, Versioning, Lifecycle rules), each object uses a **storage class**, and **EC2 reaches it through an IAM role** without hardcoded keys.
 
