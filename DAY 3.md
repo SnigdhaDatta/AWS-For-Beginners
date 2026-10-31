@@ -148,4 +148,4 @@ We set this up on Day 7.
 
 ---
 
-[← Day 2: IAM and EC2 Basics](./DAY%202.md) | Day 4: Other Services, Billing, and Review (Coming soon)
+[← Day 2: IAM and EC2 Basics](./DAY%202.md) | [Day 4: More Services, Billing, and Review →](./DAY%204.md)
