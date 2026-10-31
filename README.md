@@ -61,7 +61,49 @@ Person -> Browser -> EC2 (gallery website with Upload button) -> S3 (images)
 - S3
 - Billing tools
 
-Lambda, CloudWatch, and CloudFront are introduced by name only on Day 4.
+Lambda, CloudWatch, and CloudFront are introduced by name only on Day 4. The diagrams below show the idea of each service in plain language.
+
+---
+
+## AWS Lambda: run code only when needed
+
+Lambda is **serverless** compute. You upload a small function, and AWS runs it only when something calls it. When it is idle, it costs nothing.
+
+![Lambda runs only when needed](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3A3x3C7GFN_-WHzXQ1F7PCm.png)
+
+> [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=BlFiC9tM1U0VgX0T6Z-_F&layout=canvas)
+
+## Serverful vs Serverless
+
+**Serverful** is like renting a flat: you rent a server (EC2) and look after it. It runs all day and you pay while it runs. **Serverless** is like a hotel room: AWS looks after the servers, you use it only when you need it, and you pay per run.
+
+![Serverful vs Serverless](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3Anv9w-7twzLfvNHRMzByrx.png)
+
+> [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=2S7hPsppk6yRj7atj67Ij&layout=canvas)
+
+## CloudWatch: the AWS dashboard
+
+CloudWatch collects numbers and logs from your AWS services (such as EC2, S3, and Lambda). You can watch them on a dashboard and set an **alarm** that sends you an email when something goes wrong.
+
+![CloudWatch is the AWS dashboard](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3AJgakK0FBqnD7aktMsEsnV.png)
+
+> [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=CS5zStmyZWdAl2nLSTl5z&layout=canvas)
+
+## CloudFront: content closer to the visitor
+
+CloudFront is AWS's **content delivery network (CDN)**. It keeps a copy of your content at an edge location near the visitor, so the page loads faster. If it has no copy yet, it fetches the content from the original bucket once and then serves the copy.
+
+![CloudFront brings content closer](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3Ap6f12JTSxpk8XZfoUeNVV.png)
+
+> [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=kxkDEND8xor453HFRlQXc&layout=canvas)
+
+## CDN: how it works
+
+A **CDN (Content Delivery Network)** is a global network of edge servers. A request first checks the nearest edge cache. A **cache hit** is answered quickly; a **cache miss** goes to the origin server, which sends the content back and caches it. Without a CDN, every request goes straight to the origin server.
+
+![CDN: Content Delivery Network](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3AdNQmWba7aH2W8snFbyNy_.png)
+
+> [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=ZHqnXy-2z48A3EmMJ7si5&layout=canvas)
 
 ## Important warnings
 

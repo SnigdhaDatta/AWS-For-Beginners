@@ -50,7 +50,7 @@ Like a hotel room: use it while you need it, then leave. There is no computer to
 
 > We will **not** use Lambda in our project.
 
-![Diagram placeholder: Lambda runs only when needed](./images/day-04-lambda.png)
+![Diagram placeholder: Lambda runs only when needed](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3A3x3C7GFN_-WHzXQ1F7PCm.png)
 
 *Diagram to add: a photo is uploaded, Lambda runs the code, then Lambda stops and sits idle.*
 
@@ -62,7 +62,7 @@ Like a car dashboard. It shows how your things are doing and can send alerts.
 2. **Notice.** Find a problem early.
 3. **Alert.** Get a message when something needs attention. A billing alarm can be built with CloudWatch. On Day 1 we also used AWS Budgets to get warned about cost.
 
-![Diagram placeholder: CloudWatch is the AWS dashboard](./images/day-04-cloudwatch.png)
+![Diagram placeholder: CloudWatch is the AWS dashboard](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3AJgakK0FBqnD7aktMsEsnV.png)
 
 *Diagram to add: EC2, S3, and Lambda send numbers to CloudWatch, which raises an alarm and emails you.*
 
@@ -76,7 +76,7 @@ Popular content can stay near the people who want it.
 | **Shorter trip** | Your browser gets the content faster. |
 | **Faraway factory** | The original content can stay far away. |
 
-![Diagram placeholder: CloudFront brings content closer](./images/day-04-cloudfront.png)
+![Diagram placeholder: CloudFront brings content closer](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3Ap6f12JTSxpk8XZfoUeNVV.png)
 
 *Diagram to add: a visitor asks a nearby CloudFront copy, which fetches from the faraway bucket only when it has no copy.*
 
@@ -84,7 +84,7 @@ Popular content can stay near the people who want it.
 
 A **CDN (Content Delivery Network)** is a network of edge servers placed around the world. CloudFront is AWS's CDN. When someone asks for a file, the nearest edge server answers from its cache. If it does not have the file yet, it fetches it from the origin once and keeps a copy.
 
-![CDN: Content Delivery Network](./images/day-04-cdn.png)
+![CDN: Content Delivery Network](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3AdNQmWba7aH2W8snFbyNy_.png)
 
 *Diagram: with a CDN, the request goes to a nearby edge server. A cache hit is fast; a cache miss goes to the origin server, which sends the content back and caches it. Without a CDN, every request goes straight to the origin.*
 
@@ -105,7 +105,7 @@ This is not on the slides. It is a short explanation if students ask what "serve
 
 "Serverless" does not mean there is no server. There is a server, but AWS looks after it, so you do not have to.
 
-![Diagram placeholder: serverful and serverless side by side](./images/day-04-serverful-vs-serverless.png)
+![Diagram placeholder: serverful and serverless side by side](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3Anv9w-7twzLfvNHRMzByrx.png)
 
 ---
 
@@ -194,7 +194,7 @@ The pieces now have clear jobs.
 Person -> Browser -> EC2 (gallery website with Upload button) -> S3 (images)
 ```
 
-![Diagram placeholder: our image gallery project with an IAM role](./images/day-04-project.png)
+![Diagram placeholder: our image gallery project with an IAM role](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3AG5K1pamSzBvgtoicSPMnw.png)
 
 *Diagram to add: a visitor opens the gallery on EC2. An IAM role gives EC2 a key card to read and save images in a private S3 bucket.*
 
