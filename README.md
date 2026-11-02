@@ -39,8 +39,8 @@ See [Day 1](./DAY%201.md) for the AWS account setup steps.
 | Day 2 | IAM and EC2 Basics | [Open lesson](./DAY%202.md) |
 | Day 3 | S3 Storage | [Open lesson](./DAY%203.md) |
 | Day 4 | Other Services, Billing, and Review | [Open lesson](./DAY%204.md) |
-| Day 5 | Project, create an S3 bucket and upload images | Coming soon |
-| Day 6 | Project, launch an EC2 instance | Coming soon |
+| Day 5 | Project, create an S3 bucket and upload images | [Open lesson](./DAY%205.md) |
+| Day 6 | Project, launch an EC2 instance | [Open lesson](./DAY%206.md) |
 | Day 7 | Project, IAM role and run the gallery app on EC2 | Coming soon |
 | Day 8 | Project, view images from S3 and add the Upload button | Coming soon |
 | Day 9 | Test, polish, architecture diagram, and README | Coming soon |
@@ -71,7 +71,7 @@ Lambda is **serverless** compute. You upload a small function, and AWS runs it o
 
 ![Lambda runs only when needed](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3A3x3C7GFN_-WHzXQ1F7PCm.png)
 
-> [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=BlFiC9tM1U0VgX0T6Z-_F&layout=canvas)
+> [View this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=BlFiC9tM1U0VgX0T6Z-_F&layout=canvas)
 
 ## Serverful vs Serverless
 
@@ -79,7 +79,7 @@ Lambda is **serverless** compute. You upload a small function, and AWS runs it o
 
 ![Serverful vs Serverless](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3Anv9w-7twzLfvNHRMzByrx.png)
 
-> [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=2S7hPsppk6yRj7atj67Ij&layout=canvas)
+> [View this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=2S7hPsppk6yRj7atj67Ij&layout=canvas)
 
 ## CloudWatch: the AWS dashboard
 
@@ -87,7 +87,7 @@ CloudWatch collects numbers and logs from your AWS services (such as EC2, S3, an
 
 ![CloudWatch is the AWS dashboard](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3AJgakK0FBqnD7aktMsEsnV.png)
 
-> [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=CS5zStmyZWdAl2nLSTl5z&layout=canvas)
+> [View this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=CS5zStmyZWdAl2nLSTl5z&layout=canvas)
 
 ## CloudFront: content closer to the visitor
 
@@ -95,7 +95,7 @@ CloudFront is AWS's **content delivery network (CDN)**. It keeps a copy of your 
 
 ![CloudFront brings content closer](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3Ap6f12JTSxpk8XZfoUeNVV.png)
 
-> [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=kxkDEND8xor453HFRlQXc&layout=canvas)
+> [View this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=kxkDEND8xor453HFRlQXc&layout=canvas)
 
 ## CDN: how it works
 
@@ -103,7 +103,7 @@ A **CDN (Content Delivery Network)** is a global network of edge servers. A requ
 
 ![CDN: Content Delivery Network](https://storage.googleapis.com/second-petal-295822.appspot.com/elements/elements%3AdNQmWba7aH2W8snFbyNy_.png)
 
-> [Edit this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=ZHqnXy-2z48A3EmMJ7si5&layout=canvas)
+> [View this diagram in Eraser](https://app.eraser.io/workspace/WJZRFxZdMkQo03skOUuj?diagram=ZHqnXy-2z48A3EmMJ7si5&layout=canvas)
 
 ## Important warnings
 
