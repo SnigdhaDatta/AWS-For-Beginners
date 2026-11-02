@@ -178,4 +178,4 @@ CloudFront keeps copies of your files near your visitors, so they load faster. I
 
 ---
 
-[← Day 4: More Services, Billing, and Review](<./DAY 4.md>) | Day 6: Launch Our Computer on EC2 (coming soon)
+[← Day 4: More Services, Billing, and Review](<./DAY 4.md>) | [Day 6: Launch Our Computer on EC2](<./DAY 6.md>)
