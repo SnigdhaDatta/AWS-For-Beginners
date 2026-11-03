@@ -301,4 +301,4 @@ You can log in to the instance in a few ways. The easiest is from the AWS consol
 
 ---
 
-[← Day 5: Start Our Image Gallery](<./DAY 5.md>) | Day 7: Put the Gallery on EC2 (coming soon)
+[← Day 5: Start Our Image Gallery](<./DAY 5.md>) | [Day 7: Connect EC2 to S3 and Run the Gallery](<./DAY 7.md>)
