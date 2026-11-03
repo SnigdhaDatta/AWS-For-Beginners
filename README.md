@@ -41,7 +41,7 @@ See [Day 1](./DAY%201.md) for the AWS account setup steps.
 | Day 4 | Other Services, Billing, and Review | [Open lesson](./DAY%204.md) |
 | Day 5 | Project, create an S3 bucket and upload images | [Open lesson](./DAY%205.md) |
 | Day 6 | Project, launch an EC2 instance | [Open lesson](./DAY%206.md) |
-| Day 7 | Project, IAM role and run the gallery app on EC2 | Coming soon |
+| Day 7 | Project, IAM role and run the gallery app on EC2 | [Open lesson](./DAY%206.md) |
 | Day 8 | Project, view images from S3 and add the Upload button | Coming soon |
 | Day 9 | Test, polish, architecture diagram, and README | Coming soon |
 | Day 10 | Demo, cleanup, and next steps | Coming soon |
