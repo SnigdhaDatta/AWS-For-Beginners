@@ -115,14 +115,14 @@ Instead of full S3 access, create a policy that allows only your bucket. Replace
     },
     {
       "Effect": "Allow",
-      "Action": ["s3:GetObject", "s3:PutObject"],
+      "Action": ["s3:GetObject", "s3:PutObject", "s3:DeleteObject"],
       "Resource": "arn:aws:s3:::YOUR-BUCKET-NAME/*"
     }
   ]
 }
 ```
 
-This lets EC2 list the bucket and read or write objects, and nothing else.
+This lets EC2 list the bucket and read, write, or delete objects, and nothing else.
 
 ---
 
@@ -243,4 +243,4 @@ This works because EC2 is using the IAM role to read and write the private bucke
 
 ---
 
-[← Day 6: Launch Our Computer on EC2](<./DAY 6.md>) | Day 8: View Images from S3 and Add the Upload Button (coming soon)
+[← Day 6: Launch Our Computer on EC2](<./DAY 6.md>) | [Day 8: Upload Your First Image](<./DAY 8.md>)
