@@ -156,4 +156,4 @@ Deleting uses the same IAM role, but it needs the `s3:DeleteObject` permission.
 
 ---
 
-[← Day 7: Connect EC2 to S3 and Run the Gallery](<./DAY 7.md>) | Day 9: See Your Image Travel from S3 to the Browser (coming soon)
+[← Day 7: Connect EC2 to S3 and Run the Gallery](<./DAY 7.md>) | [Day 9: Test and Polish Your Project](<./DAY 9.md>)
