@@ -258,4 +258,4 @@ Keep it short. Do not read your README out loud.
 
 ---
 
-[← Day 8: Upload Your First Image](<./DAY 8.md>) | Day 10: Demo, Cleanup, and Next Steps (coming soon)
+[← Day 8: Upload Your First Image](<./DAY 8.md>) | [Day 10: Show, Clean Up, and Celebrate](<./DAY 10.md>)
