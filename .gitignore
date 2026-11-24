@@ -1,1 +1,8 @@
-*.json
+settings.json
+opencode.json
+
+# Node / Next.js
+gallery-app/node_modules/
+gallery-app/.next/
+gallery-app/app.log
+gallery-app/gallery.pid
